@@ -1,0 +1,13 @@
+body{
+    display: flex;
+}
+
+button{
+    width: 120px;
+    height: 70px;
+}
+
+.holiday{
+    color: red;
+}
+
