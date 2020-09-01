@@ -10,16 +10,24 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <button id = "prev">Precedente</button>
-    <h1 class="month" date-this-date = "2018-01-01">
-        <span class = "month"></span>
-        <span class="year"></span>
-    </h1>
-    <button id = "next">Successivo</button>
+    <div class = "container">
+        <div class="header">
+            <button id = "prev">Precedente</button>
+            <h1 class="month" date-this-date = "2018-01-01">
+                <span class = "month"></span>
+                <span class="year"></span>
+            </h1>
+            <button id = "next">Successivo</button>
+        </div> 
+        <div class="giorni">
+            <ul class="month-list">
 
+            </ul>
+        </div>   
+    </div>    
     <script id="day-template" type="text/x-handlebars-template">
         <li date-complete-date = "{{completeDate}}">{{day}} {{month}}</li>
-      </script>
+    </script>
       
     <script src="js/script.js"></script>
 </body>

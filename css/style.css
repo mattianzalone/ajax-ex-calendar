@@ -1,5 +1,19 @@
-body{
+.container{
+    height: 100%;
+    width: 430px;
+    border: 1px solid black;
+    margin: 0 auto;
+}
+
+.header{
+    height: 80px;
+    width: 100%;
     display: flex;
+    border-bottom: 1px solid black;
+}
+
+.giorni{
+    text-align: center;
 }
 
 button{
